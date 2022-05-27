@@ -16,6 +16,7 @@ const scrollHeader = () => {
 }
 
 window.addEventListener('scroll', scrollHeader)
+
 // Open menu & search pop-up
 const menuToggleIcon = selectElement('#menu-toggle-icon');
 
@@ -27,6 +28,7 @@ const toggleMenu = () => {
 }
 
 menuToggleIcon.addEventListener('click', toggleMenu)
+
 // Open/Close search form popup
 
 // -- Close the search form popup on ESC keypress
