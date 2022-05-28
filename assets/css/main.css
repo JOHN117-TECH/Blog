@@ -499,7 +499,16 @@ body.light-theme {
 }
 
 /* Older posts */
+.older-posts-grid-wrapper {
+    gap: var(--gap);
+}
 
+.older-posts-article-image-wrapper,
+.older-posts .article {
+    min-height: var(--item-min-height-sm)
+}
+
+.older
 /* Popular tags */
 
 /* Newsletter */
