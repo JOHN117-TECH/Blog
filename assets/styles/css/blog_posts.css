@@ -20,8 +20,9 @@
 }
 
 .blog-post-data img {
-    width: 100%;
+    width: 80%;
     height: var(--item-min-height-sm);
+    object-fit: cover;
 
 }
 
@@ -55,6 +56,7 @@
 .author-image-box {
     position: relative;
     height: var(--item-min-height-sm);
+
 }
 
 .author-about {
