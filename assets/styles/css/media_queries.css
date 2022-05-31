@@ -148,6 +148,16 @@
     .blog-post-data img {
         height: 40rem;
     }
+
+    /* Hover */
+    .article:hover .article-data-container {
+        background-color: var(--hover-dark-color);
+        color: var(--hover-light-color);
+    }
+
+    .article:hover .article-data-spacer {
+        background-color: var(--hover-light-color);
+    }
 }
 
 @media screen and (min-width: 1200px) {

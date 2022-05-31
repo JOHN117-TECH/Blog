@@ -94,14 +94,7 @@
     transition: background-color .5s;
 }
 
-.article:hover .article-data-container {
-    background-color: var(--hover-dark-color);
-    color: var(--hover-light-color);
-}
 
-.article:hover .article-data-spacer {
-    background-color: var(--hover-light-color);
-}
 
 .article-data {
     display: flex;
