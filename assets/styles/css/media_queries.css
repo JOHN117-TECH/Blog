@@ -1,4 +1,10 @@
 /* Media queries */
+@media screen and (max-width:1024px) {
+    .form-note {
+        display: none;
+    }
+
+}
 
 @media screen and (min-width: 700px) {
 
